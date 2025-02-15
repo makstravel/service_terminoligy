@@ -12,7 +12,7 @@
 
 Клонируйте репозиторий
 
-```git clone git@github.com:makstravel/service_terminoligy.git```
+```git clone https://github.com/makstravel/service_terminoligy.git```
 
 ```cd service_terminoligy```
 
