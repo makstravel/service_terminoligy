@@ -5,8 +5,9 @@
 
 !!! Перед началом работы убедитесь, что у вас установлены: !!!
 
-[Docker](https://www.docker.com/) Docker
-[Docker Compose](https://docs.docker.com/compose/install/)  Docker Compose
+[Docker](https://www.docker.com/) -Docker
+
+[Docker Compose](https://docs.docker.com/compose/install/)  - Docker Compose
 
 ##### ***2. Установка и запуск***
 
