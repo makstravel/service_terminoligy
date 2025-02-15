@@ -25,15 +25,15 @@
 Отредактируйте .env, указав нужные значения (например, для базы данных):
 
 ##### Хост PostgreSQL
-*POSTGRES_HOST*
+*POSTGRES_HOST=*
 ##### Порт PostgreSQL
-*POSTGRES_PORT*
+*POSTGRES_PORT=*
 ##### Имя пользователя для подключения
-*POSTGRES_USER*
+*POSTGRES_USER=*
 ##### Пароль пользователя
-*POSTGRES_PASSWORD*
+*POSTGRES_PASSWORD=*
 ##### Название базы данных
-*POSTGRES_DB*
+*POSTGRES_DB=*
 
 Запустите контейнеры
 
