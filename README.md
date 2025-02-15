@@ -35,7 +35,7 @@ POSTGRES_DB
 
 Запустите контейнеры
 
-docker-compose up -d --build
+``` docker-compose up -d --build ```
 
 Это запустит приложение в фоновом режиме.
 
