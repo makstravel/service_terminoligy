@@ -1,0 +1,38 @@
+Игнорирование байт-кода Python и кэш-файлов
+
+pycache/
+*.py[cod]
+*$py.class
+
+Виртуальное окружение
+venv/
+.env/
+
+Файлы Django и DRF
+*.log
+/media/
+/staticfiles/
+
+Файлы переменных окружения
+.env
+*.env
+
+Файлы настроек IDE и редакторов кода
+.idea/
+
+Файлы, связанные с Docker
+*.pid
+docker-compose.override.yml
+
+Игнорирование миграций (опционально, если их нужно пересоздавать)
+/migrations/*.py
+!/migrations/init.py
+
+Файлы и папки, связанные с PostgreSQL
+*.pgsql
+*.sql
+pgdata/
+postgres_data/
+
+
+

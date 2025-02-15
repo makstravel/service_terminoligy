@@ -1,0 +1,21 @@
+#файлы конфигурации IDE
+.idea/
+
+# временные файлы
+*.log
+*.bak
+*.swp
+
+#директорию с виртуальным окружением
+venv/
+
+# папка .git
+.git/
+
+# environment файлы
+.env
+
+# игнорировать все файлы в формате markdown (md) кроме всех файлов README*.md, исключая README-secret.md
+*.md
+!README*.md
+README-secret.md

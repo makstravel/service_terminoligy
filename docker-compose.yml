@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  postgres_db:
+    image: postgres:17
+    container_name: postgres_db
+    env_file: .env
+    restart: always
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+  service_terminology_app:
+    build:
+      context: .
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    image: django_app:latest
+    container_name: django_app
+    restart: always
+    volumes:
+      - .:/app
+      - ./static:/app/static
+      - ./staticfiles:/app/staticfiles
+    env_file:
+      - .env
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings
+    depends_on:
+      - postgres_db
+    networks:
+      - app_network
+
+volumes:
+  postgres_data:
+
+networks:
+  app_network:
