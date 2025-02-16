@@ -13,9 +13,8 @@
 
 Клонируйте репозиторий
 
-```git clone https://github.com/makstravel/service_terminoligy.git```
+```git clone https://github.com/makstravel/service_terminoligy.git && cd service_terminoligy```
 
-```cd service_terminoligy```
 
 ##### ***2. Создание виртуального окружения***
 Создайте файл окружения .env
