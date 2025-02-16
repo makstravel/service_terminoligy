@@ -9,7 +9,7 @@
 
 [Docker Compose](https://docs.docker.com/compose/install/)  - Docker Compose
 
-##### ***2. Установка и запуск***
+##### ***1. Установка и запуск***
 
 Клонируйте репозиторий
 
