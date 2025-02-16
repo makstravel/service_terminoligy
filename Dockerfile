@@ -20,7 +20,7 @@ RUN pip install --upgrade pip
 COPY requirements.txt .
 
 # Устанавливаем зависимости
-RUN pip install --no-cache-dir -r requirements11.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Копируем все файлы проекта
 COPY . .
