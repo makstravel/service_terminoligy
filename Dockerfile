@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --upgrade pip
 
 # Копируем зависимости
-COPY requirements11.txt .
+COPY requirements.txt .
 
 # Устанавливаем зависимости
 RUN pip install --no-cache-dir -r requirements11.txt
