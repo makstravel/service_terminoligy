@@ -39,6 +39,8 @@
 ``` docker-compose up -d --build ```
 
 Это запустит приложение в фоновом режиме.
+-- при установке файл *entrypoint.sh* запускает миграции джанго, если вдруг не запустились миграциции то введите эту команду
+```docker-compose exec service_terminology_app python manage.py migrate``` 
 
 Создайте суперпользователя для Django Admin
 
